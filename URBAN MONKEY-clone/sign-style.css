@@ -1,0 +1,148 @@
+
+.container_sign {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.main_sign {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: 400px;
+}
+
+.logo_sign {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_sign img {
+    height: 20px;
+    width: auto;
+}
+
+.main_sign h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #111;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+
+.sign-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shop-btn {
+    background: #5c48ee;
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.shop-btn:hover {
+    background: #4a3ad4;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 4px 0;
+}
+
+.divider .line {
+    flex: 1;
+    height: 1px;
+    background: #e5e5e5;
+}
+
+.divider .text {
+    color: #999;
+    font-size: 14px;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.email-form input {
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.email-form input:focus {
+    outline: none;
+    border-color: #5c48ee;
+}
+
+.email-form button {
+    background: #f5f5f5;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #666;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.email-form button:hover {
+    background: #eee;
+}
+
+.footer-links {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.footer-links a {
+    color: #666;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .main_sign {
+        padding: 24px;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
